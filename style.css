@@ -64,8 +64,8 @@ h3{
 }
 
 .btn{
-	border-radius: 4px;
-	border: 0.5px solid #03fc7b;
+	border-radius: 5px;
+	border: 1px solid #03fc7b;
 	width: 5em;
 	padding: 4px;
 	background-color:transparent;
@@ -80,6 +80,7 @@ h3{
   body {
     background-color: lightblue;
     background-image: url(img/bg9.jpg);
+    width: 100%;
   }
 .digits{
 	width: 30%;
@@ -90,12 +91,14 @@ h3{
 }
 #inp-area{
 	display: inline-block;
-	width: 100%;
+	width: 90%;
 	margin-top: 10em;
-	margin-left: 8em;
+	margin-left: 10em;
 	font-size: .7em;
 }
-
+p{
+	padding-left: 10em;
+}
 .btn{
 	border-radius: 4px;
 	border: 0.5px solid #03fc7b;
@@ -117,9 +120,9 @@ h3{
 }
 
 h2{
-	font-size: .9em;
+	font-size: .8em;
 	color: #fff;
-	padding-left: .5em;
+	padding-left: .2em;
 }
 
 }
