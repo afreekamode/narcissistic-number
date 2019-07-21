@@ -1,0 +1,128 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+
+body{
+	width: auto;
+	font-family:'Varela Round';
+	background-color: #FFCA75;
+	margin:0;
+	background-image: url(img/bg4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#data-out{
+	color:#fff;
+	margin-top: 2%;
+	margin-left: 37%;
+	/*padding: 5px;*/
+	height: 2em;
+	width: 18em;
+	border: .5px solid transparent;
+	border-radius: 4px;
+	background-color: rgba(7, 175, 80,.3);
+}
+
+h2{
+	font-size: 1em;
+	color: #fff;
+	padding-left: 6em;
+}
+
+h3{
+	margin: .3em;
+	text-align: center;
+	display: block;
+	font-size: .9em;
+	padding-top: 5px;
+}
+
+ p{
+	margin: .3em;
+	text-align: center;
+	display: block;
+	font-size: .7em;
+	padding-top: 5px;
+	color: #fff;
+	padding-right: 6em;
+}
+#content
+{
+	width: 100%;
+}
+.digits{
+	width: 30%;
+	padding: 5px;
+	border-radius: 5px;
+	border-color: transparent;
+	font-size: .7em;
+}
+#inp-area{
+	display: inline-block;
+	width: 100%;
+	margin-top: 10em;
+	margin-left: 25em;
+}
+
+.btn{
+	border-radius: 4px;
+	border: 0.5px solid #03fc7b;
+	width: 5em;
+	padding: 4px;
+	background-color:transparent;
+	color: #fff; 
+}
+.btn:hover{
+	/*background-color: #03fc7b;*/
+	color: #03fc7b;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    background-image: url(img/bg9.jpg);
+  }
+.digits{
+	width: 30%;
+	padding: 5px;
+	border-radius: 5px;
+	border-color: transparent;
+	font-size: .7em;
+}
+#inp-area{
+	display: inline-block;
+	width: 100%;
+	margin-top: 10em;
+	margin-left: 8em;
+	font-size: .7em;
+}
+
+.btn{
+	border-radius: 4px;
+	border: 0.5px solid #03fc7b;
+	width: 5em;
+	padding: 5px;
+	background-color:transparent;
+	color: #fff;
+	font-size: .9em; 
+}
+#data-out{
+	color:#fff;
+	margin-top: 2%;
+	margin-left: 23%;
+	height: 2em;
+	width: 15em;
+	border: .5px solid transparent;
+	border-radius: 4px;
+	background-color: rgba(76, 175, 80,.5);
+}
+
+h2{
+	font-size: .9em;
+	color: #fff;
+	padding-left: .5em;
+}
+
+}
+
+/* FF9C00	FA9B05	F89800	FFCA75	FFEED3*/
+/*0B61C7	0F61C3	0A5DC1	7BB5FB	D2E4FB*/

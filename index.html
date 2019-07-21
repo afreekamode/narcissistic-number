@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Narcissistic</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div id="content">
+<div id="inp-area">
+	<h2>Check If Your Nuber Is Narcissistic</h2>
+<input type="text" maxlength="4" name="" id="take-digits" placeholder="Is this narcissistic Stuff ?" class="digits">
+<button type="submit" value="Validate" name="" id="valid-btn" class="btn">Check</button>
+</div>
+<div class="out-put">
+ <h3 id="data-out">Result</h3>
+ <p>By Seekay codeHead</p>
+</div>
+</div>
+
+<script>
+function narcissistic() {
+document.getElementById('valid-btn').addEventListener('click', narcissistic)
+const getValue = document.getElementById('take-digits').value;
+const valLenght= getValue.toString().length; /**get value length and to string**/
+const alldigits = []; /** array to hold the singular digits making up the number**/
+const result = [];
+digRead = parseInt(valLenght); /** convert back to integer for further operations**/
+digits = getValue.toString() /** convert value to back to string **/
+for(let i=0;i<digits.length;i++) 
+{
+alldigits.push(parseInt(digits[i])) /** append each digit to array **/
+}
+for(let i=0;i<alldigits.length;i++)
+{
+result.push(Math.pow(alldigits[i], digRead));
+}
+const sum = result.reduce(add, 0); /**sum up the numbers in result **/
+function add(a, b) {
+    return a + b;
+
+}
+const results = sum == getValue ? getValue + " is narcissitic " : getValue + " is not narcissistic";
+document.getElementById('data-out').innerHTML = results;
+}
+narcissistic();
+
+</script>
+</body>
+</html>
