@@ -68,9 +68,8 @@ h3{
 	border: 1px solid #03fc7b;
 	width: 5em;
 	padding: 4px;
-	background-color:transparent;
+	background-color:#03fc7b;
 	color: #fff;
-background-color:#03fc7b;
 }
 .btn:hover{
 	/*background-color: #03fc7b;*/
